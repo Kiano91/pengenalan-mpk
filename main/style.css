@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Kanit:wght@500&family=Poppins&display=swap');
+
+body {
+    background-color: #b03837;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.judul {
+    text-align: center;
+    font-family: 'arial';
+    font-size: 15pt;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.title {
+    stroke: #f5a37c solid 10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*.judul .p {
+    border-bottom: black solid 5px;
+}*/
+.smada {
+    width: 90px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.mpk {
+    width: 90px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
+.inti {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 5%;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.box {
+    background-color: #f5a37c;
+    width: 160px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 15px rgba(0,0,0,0.15),
+    inset -5px -5px 15px rgba(255,255 ,255 ,0.15),
+    5px 5px 15px rgba(0,0,0,0.15),
+    -5px -5px 15px rgba(255,255 ,255 ,0.15);
+}
+.profil {
+    width: 9rem;
+    margin-left: 5%;
+}
+.box p {
+    font-family: 'poppins';
+    margin: 0px;
+    text-align: center;
+    font-weight: bolder;
+    color: #862726;
+}
+.box button {
+    margin-top: 5px;
+    margin-left: 32%;
+    width: 60px;
+    height: 25px;
+    color: #862726;
+    background-color: #f5a37c;
+    border: 0;
+    border-radius: 5px;
+    border: #862726 solid 2px;
+    transition-duration: 0.4s;
+}
+
+.box button:hover {
+    margin-top: 5px;
+    margin-left: 32%;
+    width: 60px;
+    height: 25px;
+    color: #f5a37c;
+    background-color: #862726;
+    border: 0;
+    border-radius: 5px;
+    border: #862726 solid 2px;
+}
